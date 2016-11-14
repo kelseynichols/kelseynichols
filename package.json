@@ -1,0 +1,29 @@
+{
+  "name": "kelseynichols",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelseynichols/kelseynichols.git"
+  },
+  "author": "Kelsey Nichols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelseynichols/kelseynichols/issues"
+  },
+  "homepage": "https://github.com/kelseynichols/kelseynichols#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-mysql-session": "^1.2.0",
+    "mysql": "^2.12.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
