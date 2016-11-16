@@ -1,7 +1,7 @@
 /*!
  * Transition - vCard Theme
  *
- * Copyright 2013 
+ * Copyright 2013
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  * Created by: Carlos Alvarez
@@ -73,7 +73,7 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: url('../images/back2.jpg') no-repeat; 
+	background: url('../images/blue.png') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -83,17 +83,18 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/back3.jpg') no-repeat; 
+	background: url('../images/back3.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+		background-color: rgba(63, 93, 191, 0.42);
 }
 
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: url('../images/back4.jpg') no-repeat; 
+	background: url('../images/back4.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -103,7 +104,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/back5.jpg') no-repeat; 
+	background: url('../images/back5.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -183,7 +184,7 @@ a:hover {
 	content: "\e005";
 }
 
-.bl-content, 
+.bl-content,
 div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
@@ -233,7 +234,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-} 
+}
 
 .bl-content > ul li {
 	display: inline-block;
@@ -260,7 +261,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-} 
+}
 
 
 /* --------------------------------------------------------	*/
@@ -279,7 +280,7 @@ div.bl-panel-items > div > div {
   height:35px;
   font-size:14px !important;
   line-height:40px;
-  background: #c9ab8b !important;   
+  background: #c9ab8b !important;
   border:0px;
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 inset;
   text-shadow: none !important;
@@ -510,14 +511,14 @@ section.bl-expand .bl-icon-close {
 /* --------------------------------------------------------	*/
 /*	Social Networks Icons */
 /* --------------------------------------------------------	*/
-       
-.social-network { 
-	display:inline-block; 
-	background: url(../img/social-networks.png) no-repeat top left; 
-	width: 40px; 
-	height: 40px; 
+
+.social-network {
+	display:inline-block;
+	background: url(../img/social-networks.png) no-repeat top left;
+	width: 40px;
+	height: 40px;
   margin: 0px 4px 0px 0px;
-	background-position-y: -40px; 
+	background-position-y: -40px;
 	-webkit-transition:all 0.2s ease;
 	-moz-transition:all 0.2s ease;
 	-o-transition:all 0.2s ease;
@@ -576,7 +577,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yelp{ background-position: -1840px 0}
 .social-network.youtube{ background-position: -1880px 0}
 .social-network.zerply{ background-position: -1920px 0}
-  
+
 /* mouseover */
 .social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
 .social-network.amazon:hover,.active .social-network.amazon{ background-position: -40px -40px}
@@ -641,5 +642,5 @@ section.bl-expand .bl-icon-close {
 	.bl-content > ul li {
 		width: 40%;
 	}
-	
+
 }
