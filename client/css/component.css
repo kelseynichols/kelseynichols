@@ -71,9 +71,9 @@ a:hover {
 }
 
 .bl-main > section:first-child {
-	top: 0;
-	left: 0;
-	background: url('../images/blue.png') no-repeat;
+	/*top: 0;
+	left: 0;*/
+	background: url('../images/kelseyblue2.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
