@@ -53,6 +53,10 @@ a:hover {
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
+
+	@media (max-width: 570px) {
+		height: 115%;
+	}
 }
 
 .bl-main > section {
@@ -204,13 +208,15 @@ div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
 	position: absolute;
-	top: 60px;
-	left: 30px;
-	right: 30px;
-	bottom: 30px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 	padding: 0 20px;
 	overflow: hidden;
 	overflow-y: auto;
+	background: rgba(88, 144, 176, 0.4);
+	padding: 5em;
 }
 
 /* Custom content */
@@ -226,6 +232,10 @@ div.bl-panel-items > div > div {
 		&#two {
 			margin-left: 3em;
 		}
+	}
+
+	@media (max-width: 571px) {
+		line-height: 1.6;
 	}
 }
 
@@ -289,8 +299,8 @@ div.bl-panel-items > div > div {
 }
 
 .function2 {
-	width: 50%;
-	background-color: red;
+	// width: 50%;
+	// background-color: red;
 }
 .skill {
     text-align: center;
@@ -484,7 +494,9 @@ div.bl-panel-items > div.bl-hide-current-work {
 /* Section background colors */
 
 .bl-main > section:first-child.bl-expand {
-	background: #5a8ead;
+	// background: #5a8ead;
+	background-color: rgba(90, 142, 173, 0.5);
+	// rgba(90, 142, 173, 0.52)
 }
 .bl-main > section:nth-child(2).bl-expand {
 	background: #2c2c2c;
@@ -671,7 +683,8 @@ section.bl-expand .bl-icon-close {
 @media screen and (max-width: 46.5em) {
 	.bl-content,
 	.bl-box {
-		font-size: 75%;
+		font-size: 65%;
+
 	}
 
 	.bl-expand .bl-box {
