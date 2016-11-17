@@ -201,7 +201,7 @@ div.bl-panel-items > div > div {
   overflow: hidden;
   overflow-y: auto;
   background: rgba(88, 144, 176, 0.4);
-  padding: 5em;
+  padding: 3em;
 }
 /* Custom content */
 .bl-content p {
@@ -298,10 +298,24 @@ div.bl-panel-items > div > div {
 /* --------------------------------------------------------	*/
 /*  About Us  */
 /* --------------------------------------------------------	*/
+.about-us .span4 ul {
+  width: 75%;
+  margin: 0 auto;
+}
+.about-us .span4 ul li {
+  list-style-type: circle;
+  padding-bottom: 8px;
+}
 .about-us h3 {
-  font-size: 16px;
+  font-size: 2em;
   color: #c9ab8b;
+  padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 1em;
 }
 .about-us i {
   font-size: 22px;
@@ -851,5 +865,10 @@ section.bl-expand .bl-icon-close {
   }
   .bl-content > ul li {
     width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .function {
+    display: none;
   }
 }
