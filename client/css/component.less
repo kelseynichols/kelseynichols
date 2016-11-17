@@ -236,6 +236,7 @@ div.bl-panel-items > div > div {
 
 	@media (max-width: 571px) {
 		line-height: 1.6;
+		padding: 0;
 	}
 }
 
@@ -310,6 +311,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+
 }
 
 
@@ -348,12 +350,26 @@ div.bl-panel-items > div > div {
 			ul {
 				width: 75%;
 				margin: 0 auto;
-
+				letter-spacing: 1px;
+				
+				@media (max-width: 768px) {
+					margin-top: 4em;
+					margin-bottom: 4em;
+				}
 				li {
 					list-style-type: circle;
 					padding-bottom: 8px;
+
+					@media (max-width: 768px) {
+						width: 100%;
+						text-align: center;
+						list-style-type: none;
+						font-size: 15px
+					}
 				}
 			}
+
+
 	}
 }
 .about-us h3{
@@ -506,6 +522,10 @@ div.bl-panel-items > div.bl-hide-current-work {
 	height: 100%;
 	top: 0;
 	left: 0;
+
+	@media (max-width: 570px) {
+		background-position-y: 0;
+	}
 }
 
 .bl-main > section.bl-expand-top {

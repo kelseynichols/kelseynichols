@@ -216,6 +216,7 @@ div.bl-panel-items > div > div {
 @media (max-width: 571px) {
   .bl-content {
     line-height: 1.6;
+    padding: 0;
   }
 }
 .infoscript {
@@ -301,10 +302,25 @@ div.bl-panel-items > div > div {
 .about-us .span4 ul {
   width: 75%;
   margin: 0 auto;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .about-us .span4 ul {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
 }
 .about-us .span4 ul li {
   list-style-type: circle;
   padding-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .about-us .span4 ul li {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+  }
 }
 .about-us h3 {
   font-size: 2em;
@@ -432,6 +448,11 @@ div.bl-panel-items > div.bl-hide-current-work {
   height: 100%;
   top: 0;
   left: 0;
+}
+@media (max-width: 570px) {
+  .bl-main > section.bl-expand {
+    background-position-y: 0;
+  }
 }
 .bl-main > section.bl-expand-top {
   z-index: 100;
