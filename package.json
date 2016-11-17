@@ -4,7 +4,7 @@
   "description": "personal site",
   "main": "server/index.js",
   "scripts": {
-    "test": "nodemon -e js.less --exec \"source .variables && lessc client/css/main.less client/css/main.css && node server/index.js\"",
+    "test": "nodemon -e js.less --exec \"source .variables && lessc client/css/component.less client/css/component.css && node server/index.js\"",
     "start": "node server/index.js"
   },
   "repository": {
