@@ -405,7 +405,7 @@ div.bl-panel-items {
   z-index: 9999;
 }
 div.bl-panel-items > div {
-  background: #16a085;
+  background: rgba(2, 2, 2, 0.33);
   z-index: 0;
   opacity: 0;
   -webkit-transform: translateY(0);
