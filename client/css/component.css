@@ -564,8 +564,9 @@ section.bl-expand .bl-icon-close {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 /* normal */
 .social-network.aim {
