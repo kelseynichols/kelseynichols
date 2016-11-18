@@ -836,6 +836,7 @@ section.bl-expand .bl-icon-close {
 .social-network.skype:hover,
 .active .social-network.skype {
   background-position: -1320px -40px;
+  /*background-color:red;*/
 }
 .social-network.slashdot:hover,
 .active .social-network.slashdot {
