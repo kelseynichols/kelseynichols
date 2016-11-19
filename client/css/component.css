@@ -201,7 +201,7 @@ div.bl-panel-items > div > div {
 }
 /* Custom content */
 .me {
-  background: rgba(88, 144, 176, 0.4);
+  background: rgba(88, 144, 176, 0.8);
 }
 .bl-content p {
   margin: 0 auto;
@@ -328,9 +328,10 @@ div.bl-panel-items > div > div {
 /*  About Us  */
 /* --------------------------------------------------------	*/
 .about-us .span4 ul {
-  width: 75%;
+  width: 82%%;
   margin: 0 auto;
   letter-spacing: 1px;
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   .about-us .span4 ul {
@@ -341,6 +342,7 @@ div.bl-panel-items > div > div {
 .about-us .span4 ul li {
   list-style-type: circle;
   padding-bottom: 8px;
+  line-height: 30px;
 }
 @media (max-width: 768px) {
   .about-us .span4 ul li {
@@ -352,7 +354,7 @@ div.bl-panel-items > div > div {
 }
 .about-us h3 {
   font-size: 2em;
-  color: #eac67a;
+  color: #b3ffb3;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
